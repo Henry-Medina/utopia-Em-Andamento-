@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  nav a {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  main .content {
+    width: 100%;
+  }
+
+  main .cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .cta img {
+    width: 50%;
+  }
+
+  main .features {
+    width: 100%;
+  }
+
+  main .features .feature {
+    width: 100%;
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+}

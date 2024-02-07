@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Oxygen&family=Poppins:wght@400;500;600;700;800;900&family=Rubik&family=Secular+One&display=swap');
+
+/* Redefinição de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Body */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: rgb(15,13,17);
+background: linear-gradient(120deg, rgba(15,13,17,1) 0%, rgba(18,18,23,1) 100%);
+    
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seções */
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Seção de Introdução */
+#introducao {
+    text-align: center;
+}
+
+/* Seção de Influências */
+#influencias {
+    text-align: center;
+}
+
+/* Seção de Reações */
+#reacoes {
+    text-align: center;
+}
+
+/* Seção de Desenvolvimento */
+#desenvolvimento {
+    text-align: center;
+}
+
+/* Seção de Legado */
+#legado {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos adicionais */
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #777;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Vídeos */
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+/* Citações */
+blockquote {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 5px solid #ddd;
+}
+
+/* Listas */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    /* Ajustes para telas menores */
+    main {
+        padding: 1rem;
+    }
+
+    section h3 {
+        font-size: 1.6rem;
+    }
+}
+
+
+.back-button {
+    background-image: linear-gradient(to bottom, #d70f0f, #771010);
+    color: rgb(246, 242, 242);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: background-image 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #771010;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom, #771010, #d70f0f);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, background-image 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .back-button:active {
+    transform: translateY(0);
+  }
+
+  .wrapper {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10pz rgba(0, 0, 0 0, 0.2);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 60px 40px;
+  }
+  
+  .wrapper h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  
